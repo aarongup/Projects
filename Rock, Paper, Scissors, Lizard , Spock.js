@@ -20,13 +20,13 @@ if (computerChoice <= 0.2) {
     computerChoice = "spock";
 }
 
-if (userChoice != "rock" , "paper" , "siccors", "lizard", "spock") {
+if (userChoice != "rock" || userChoice != "paper" || userChoice != "siccors" || userChoice != "lizard" || userChoice !="spock") {
     alert("Damn it, pick a right one!");
     userChoice = prompt("Do you choose rock, paper, scissors, lizard, or spock?");
 }
 
-alert(console.log("You have chosen " + userChoice));
-alert(console.log("Computer has chosen " + computerChoice));
+alert("You have chosen " + userChoice);
+alert("Computer has chosen " + computerChoice);
 
 var compare = function(choice1, choice2) {
     if (choice1 === choice2) {
