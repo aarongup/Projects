@@ -1,3 +1,8 @@
+//Aaron Gupta
+//Game inspired by The Big Bang Theory
+//Made entirely of JavsScript functions and if/elses
+
+
 
 alert("Welcome to the rock-paper-lizard-spock game inspired by the show Big Bang Theory!");
 
