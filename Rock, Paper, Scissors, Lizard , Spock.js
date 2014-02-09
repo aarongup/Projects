@@ -14,7 +14,7 @@ if (computerChoice <= 0.2) {
 	computerChoice = "paper";
 } else if (computerChoice <= .6 && computerChoice > .4) {
 	computerChoice = "scissors";
-} else if (computerChoice <= .8 && computerChoice > 6) {
+} else if (computerChoice <= .8 && computerChoice > .6) {
     computerChoice = "lizard";
 } else {
     computerChoice = "spock";
