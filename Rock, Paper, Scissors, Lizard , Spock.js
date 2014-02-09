@@ -25,8 +25,7 @@ while (userChoice !== "rock" && userChoice !== "paper" && userChoice !== "scisso
     userChoice = prompt("Do you choose rock, paper, scissors, lizard, or spock?");
 }
 
-alert("You have chosen " + userChoice);
-alert("Computer has chosen " + computerChoice);
+alert("You have chosen " + userChoice + " and the computer has chosen " + computerChoice);
 
 var compare = function(choice1, choice2) {
     if (choice1 === choice2) {
