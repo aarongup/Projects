@@ -20,7 +20,7 @@ if (computerChoice <= 0.2) {
     computerChoice = "spock";
 }
 
-if (userChoice !== "rock" || userChoice !== "paper" || userChoice !== "siccors" || userChoice !== "lizard" || userChoice !=="spock") {
+if (userChoice !== "rock" || userChoice !== "paper" || userChoice !== "scissors" || userChoice !== "lizard" || userChoice !=="spock") {
     alert("Damn it, pick a right one!");
     userChoice = prompt("Do you choose rock, paper, scissors, lizard, or spock?");
 }
