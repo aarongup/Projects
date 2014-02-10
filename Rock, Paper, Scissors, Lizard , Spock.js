@@ -4,8 +4,8 @@
 
 
 
-var continueToPlay = 1;
-while(continueToPlay = 1) {
+var continueToPlay = true;
+while(continueToPlay == true) {
 	
 alert("Welcome to the rock-paper-lizard-spock game inspired by the show Big Bang Theory!");
 
