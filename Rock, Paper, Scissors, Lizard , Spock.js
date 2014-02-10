@@ -97,7 +97,7 @@ alert(compare(userChoice,computerChoice))
 var decisionToContinue = prompt("Would you like to continue to play, yes or no ");
 
 while (decisionToContinue.toLowerCase() !== 'yes' && decisionToContinue.toLowerCase() !== 'no') {
-	decisionToContinue = prompt("Invalid response. yes or not?")
+	decisionToContinue = prompt("Invalid response. yes or no?")
 }
 if(decisionToContinue.toLowerCase() === 'yes') {
 	continueToPlay = true;
