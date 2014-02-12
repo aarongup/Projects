@@ -1,3 +1,8 @@
+//Aaron Gupta
+//Edited javascript file for simplicity for use with HTML file
+//This program is now "runable" on a website with associated game.html
+
+
 "use strict";
 
 (function() {
